@@ -80,3 +80,55 @@ body{
 
 }
 
+
+#cadastro{
+    width: 100%;
+     height: 100vh;
+    background-color: #c92072;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cadastro form{
+    width: 700px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#cadastro form .coluna-2{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#cadastro form .campo label{
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+#cadastro form .campo input,
+#cadastro form .campo select{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#cadastro form .campo input:focus,
+#cadastro form .campo select:focus{
+    outline-color: #c92072;
+}
+
+#cadastro form .coluna-4{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 16px;
+}
